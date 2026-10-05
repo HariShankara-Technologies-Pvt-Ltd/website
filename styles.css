@@ -52,3 +52,6 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:20px;pa
 footer img{height:56px}
 @media(max-width:900px){.hero,.product{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.nav nav{display:none}.menu{display:block}.hero-logo{order:-1}}
 @media(max-width:560px){.cards{grid-template-columns:1fr}.contact{padding:32px}footer{flex-direction:column;align-items:flex-start}.btn.ghost{margin:12px 0 0}}
+.hero-logo .logo-circle{width:min(440px,90%);aspect-ratio:1;border-radius:50%;background:#fff;box-shadow:0 30px 80px #0b3d242e;display:grid;place-items:center}
+.hero-logo .logo-circle img{width:76%;height:76%;object-fit:contain;border-radius:0;padding:0;box-shadow:none;background:none}
+.nav .logo,footer img{mix-blend-mode:multiply}
