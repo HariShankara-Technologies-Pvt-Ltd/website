@@ -1,15 +1,15 @@
-# HariShankara Website — Version 2
+# HariShankara Technologies Website
 
-A dark premium healthcare-tech landing page for HariShankara Technologies Pvt Ltd and HariShankara PharmaAI.
+Static GitHub Pages website for HariShankara Technologies.
 
-## Run
-Open `index.html` in a browser, or serve the folder with any static web server.
+## Publish on GitHub Pages
+1. Create/open your website repository.
+2. Copy the contents of this folder into the repository root.
+3. Commit and push.
+4. GitHub → Settings → Pages → Deploy from branch → select `main` and `/ (root)`.
 
-## Deploy
-Works with Nginx/EC2, S3 + CloudFront, Netlify, Vercel, or any static host.
+## Custom domain
+Set your GitHub Pages custom domain to `harishankara.in` and configure DNS at your domain provider.
 
-## Edit
-- `index.html` — content and sections
-- `styles.css` — colors, layout, animations
-- `script.js` — scroll-reveal behavior
-- `assets/` — brand logos
+## Contact email
+The site currently uses `hello@harishankara.in` as the business enquiry address. Change it in `index.html` if you use a different mailbox.
